@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+	<about>palindrome</about>
+	<definition>
+		'I am a word, phrase, a number, or sequence that reads the same backwards as forwards.'
+		e.g Number 12321
+		e.g Sentence 'madam or nurses run'
+	</definition>
+	<test>'Is 12291 palindrome? Answer with yes or no'</test>
+	<solution>'The correct answer is no.'</solution>
+	<explain>'Reversed value is 19221, which is not equal to initial value (12291).'</explain>
+</note>
+
+<note>
+	<about>prime</about>
+	<definition>
+		'I am a number that is divisible only by itself and 1.'
+		e.g Number 2
+		e.g Number 3
+	</definition>
+	<test>'Is 123 prime? Answer with yes or no'</test>
+	<solution>'The correct answer is no.'</solution>
+	<explain>'The number 123 can be evenly divided by 1 3 41 and 123, with no remainder. 
+			  Since 123 cannot be divided by just 1 and 123, it is not a prime number.'</explain>
+</note>
+
+<note>
+	<about>odd</about>
+	<definition>
+		'Any integer (not a fraction) that cannot be divided exactly by 2.'
+		 e.g −3, 1, 7 and 35
+	</definition>
+	<test>'Is 275 odd? Answer with yes or no'</test>
+	<solution>'The correct answer is yes.'</solution>
+	<explain>'If we divide 275 by 2, the rest is 1, so it is not even, it is an odd number.'</explain>
+</note>
+
+<note>
+	<about>even</about>
+	<definition>
+		'Any integer (not a fraction) that can be divided exactly by 2.'
+		e.g 10, 0, 14 and 108
+	</definition>
+	<test>'Is 275 odd? Answer with yes or no'</test>
+	<solution>'The correct answer is yes.'</solution>
+	<explain>'If we divide 275 by 2, the rest is 1, so it is not even, it is an odd number.'</explain>
+</note>
+
+<note>
+	<about>set</about>
+	<definition>
+		'In mathematics, a set is a collection of distinct elements.'
+		Notation: capital letter (optional indices) followed by braces and between braces: the elements, separated by comma.
+		e.g A = {4, 2, 1, 3}
+		e.g B = {1, 2, 1, 3} - B is not a set, it contains duplicate 1.
+		! Order is not important !
+	</definition>
+	<test>'Is {1, 2, 13, 127, 2, 50} a set? Answer with yes or no'</test>
+	<solution>'The correct answer is no.'</solution>
+	<explain>'It contains duplicates - 2 in 2 positions.'</explain>
+</note>
+
+<note>
+	<about>empty set</about>
+	<definition>
+		'A set with no elements. An empty set is a subset of every set, and every set is a subset of itself.'
+		Notation: a cut circle.
+		e.g A = O with a cut on diagonal.
+	</definition>
+	<test>'Is {3} an empty set? Answer with yes or no'</test>
+	<solution>'The correct answer is no.'</solution>
+	<explain>'It contains value 3. An empty set has no values'</explain>
+</note>
+
+<note>
+	<about>subset</about>
+	<definition>
+		'If every element of set A is also in B, then A is described as being a subset of B, or contained in B, written A ⊆ B'
+		e.g {1, 3} ⊂ {1, 2, 3, 4}.
+		e.g {1, 2, 3, 4} ⊆ {1, 2, 3, 4}.
+	</definition>
+	<test>'Is {7, 8, 9} subset for {13, 2, 50, 17, 201, 7, 20, 8, 10, 9}? Answer with yes or no'</test>
+	<solution>'The correct answer is yes.'</solution>
+	<explain>'Set contains all the values (7, 8 and 9), so it is a subset.'</explain>
+</note>
+
+<note>
+	<about>union</about>
+	<definition>
+		'The union of two sets is a set containing all elements that are in A or in B (possibly both). For example, {1,2}+{2,3}={1,2,3}.
+		Notation is with a reversed U.'
+	</definition>
+	<test>'Is {7, 8, 9} union of {1, 9, 3} and {7, 8, 11}? Answer with yes or no'</test>
+	<solution>'The correct answer is no.'</solution>
+	<explain>'{1, 9, 3}+{7, 8, 11} = {1, 3, 7, 8, 9, 11}'</explain>
+</note>
+
+<note>
+	<about>intersect</about>
+	<definition>
+		'The intersection of two sets A and B, denoted by A upside down U and B, consists of all elements that are both in A and B. 
+			For example, {1,2}|{2,3}={2}'
+			e.g {1, 3} | {1, 2, 3, 4} = {1, 3}.
+			e.g {1, 2, 3, 4} | {1, 2, 3, 4} = {1, 2, 3, 4}.
+	</definition>
+	<test>'Is {20, 8, 19} intersection of {7, 2, 20, 8, 17, 201, 19}-{19, 27, 4, 8, 10, 9}? Answer with yes or no'</test>
+	<solution>'The correct answer is yes.'</solution>
+	<explain>'Common values of sets are the exact given set {20, 8, 19}'</explain>
+</note>
+
+<note>
+	<about>power</about>
+	<definition>
+		'The power (or exponent) of a number says how many times to use the number in a multiplication.'
+			e.g 3^2 = 3*3 = 9 
+			e.g 2^5 = 2*2*2*2*2 = 32
+	</definition>
+	<test>'Is 81 result of 9 at power of 2? Answer with yes or no'</test>
+	<solution>'The correct answer is yes.'</solution>
+	<explain>'9^2 = 9*9 = 81'</explain>
+</note>
+
+<question>
+	<text>Is 121 palindrome? Answer with yes or no. </text>
+	<correct>yes</correct>
+</question>
+
+<question>
+	<text>Is 121 odd or even? Answer with odd or even. </text>
+	<correct>odd</correct>
+</question>
+
+<question>
+	<text>What is 2^5?
+	a. 16
+	b. 64
+	c. 32 
+	Answer with a, b or c.</text>
+	<correct>c</correct>
+</question>
+
+<question>
+	<text>What is the value of the following expression when p = 9?
+							6p + 5
+	a. 49
+	b. 54
+	c. 59
+	d. 68</text>
+	<correct>c</correct>
+</question>
+
+<question>
+	<text>Is 11991133459911 palindrome? Answer with yes or no.</text>
+	<correct>no</correct>
+</question>
+
+<question>
+	<text>What is 1+(5*10-3)/4?
+			a. 6
+			b. 4
+			c. 12
+		Answer with a, b or c.</text>
+	<correct>c</correct>
+</question>
+
+<question>
+	<text>Is 13 palindrome? Answer with yes or no.</text>
+	<correct>no</correct>
+</question>
+
+<question>
+	<text>3, 5, 8, 13, 21, ...what are the next 3 terms?
+			a. 27, 34, 42
+			b. 29, 37, 45
+			c. 34, 55, 89
+			d. 34, 55, 99</text>
+	<correct>c</correct>
+</question>
+
+<question>
+	<text>
+		1) Use the number 1 as the first term.
+		2) To find any other term, double the previous term and add 2.
+	The first two numbers in the pattern are 1 and 4. What is the 4th number in the
+pattern?
+		a. 20
+		b. 22
+		c. 44
+		d. 46</text>
+	<correct>b</correct>
+</question>
+
+<question>
+	<text>If x = 3, what is the value of the following expression?
+							3x^2+2
+		a. 17
+		b. 20
+		c. 29
+		d. 83</text>
+	<correct>c</correct>
+</question>
+
+<question>
+	<text>What is the mode for the following set of data?
+			2.4, 1.3, 3.9, 3.1, 4.2, 6.4, 1.4,
+			4.6, 2.9, 1.5, 3.6, 6.3, 1.3, 5.1
+		a. 4.6
+		b. 2.4
+		c. 1.4
+		d. 1.3</text>
+	<correct>d</correct>
+</question>
