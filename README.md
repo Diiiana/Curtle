@@ -1,6 +1,9 @@
 # Curtle
-Leaning Bot using Lex &amp; Yacc.
+Learning Bot using Lex &amp; Yacc.
+
+
 Documentation contains details about implementation and some results.
+
 Non-relational database
   o File ‘knowledge.xml’ is a non-relational database which contains information about mathematical terms
   o Teaching – knowledge
